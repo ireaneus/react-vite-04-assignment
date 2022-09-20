@@ -10,14 +10,17 @@
 
   # Examples of useEffect with and without dependencies
 
-  ## Login.jsx
+  ## useEffect
 
   ```js
-   useEffect(() => {
-    setFormIsValid(
-      enteredEmail.includes('@') && enteredPassword.trim().length > 6
-    );
-  }, [enteredEmail, enteredPassword]);
+  const { someProperty } = someObject;
+  useEffect(() => {
+  // code that only uses someProperty ...
+    }, [someProperty]);
+
+  useEffect(() => {
+  // code that only uses someProperty ...
+  }, [someObject.someProperty]);
   ```
 
   ## App.jsx
