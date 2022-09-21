@@ -47,4 +47,9 @@
   };
   ```
 
+  useContext instead of props, using AuthContext.Provider and a 
+  auth-context.jsx file not as a component but as an object holding 
+  global functions used by all components
+  
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-fm6asf)
