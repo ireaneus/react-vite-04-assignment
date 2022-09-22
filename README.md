@@ -2,6 +2,8 @@
 
 ## React - The complete guide - Advanced lessons
 
+## Assignment code complete section 10
+
 - Login and Logout screens - Currently if you refresh after login it will take back to login screen
   -- The reason for this is the useState returns to false for isLoggedIn as default state
   -- Setting up localStorage and useEffect with no dependencies evaluates isLoggedIn sets a persistent 1 time condition
@@ -47,9 +49,8 @@
   };
   ```
 
-  useContext instead of props, using AuthContext.Provider and a 
-  auth-context.jsx file not as a component but as an object holding 
+  useContext instead of props, using AuthContext.Provider and a
+  auth-context.jsx file not as a component but as an object holding
   global functions used by all components
-  
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-fm6asf)
